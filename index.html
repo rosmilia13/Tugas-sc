@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pertemuan 8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- coloum -->
+      <div class="container">
+        <div class="row">
+            <div class="col border bg-primary text-white">col 1</div>
+            <div class="col border">col 2</div>
+            <div class="col border">col 3</div>
+            <div class="col border">col 4</div>
+            <div class="col border">col 5</div>
+            <div class="col border">col 6</div>
+            <div class="col border">col 7</div>
+            <div class="col border">col 8</div>
+            <div class="col border">col 9</div>
+            <div class="col border">col 10</div>
+            <div class="col border">col 11</div>
+            <div class="col border">col 12</div>
+        </div>
+        <div class="row">
+            <div class="col border">col 1</div>
+            <div class="col border">col 2</div>
+            <div class="col border">col 3</div>
+        </div>
+        <div class="row">
+            <div class="col-4 border">col 1</div>
+            <div class="col-8 border">col 2</div>
+        </div>
+        <div class="row">
+            <div class="col border">col 1</div>
+            <div class="col border">col 2</div>
+        </div>
+        <div class="row">
+            <div class="col border">col 1</div>
+        </div>
+      </div>
+      <!-- bg colors -->
+      <div class="container">
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">.bg-primary-subtle</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">.bg-secondary-subtle</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-success-subtle text-success-emphasis">.bg-success-subtle</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-danger-subtle text-danger-emphasis">.bg-danger-subtle</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-warning-subtle text-warning-emphasis">.bg-warning-subtle</div>
+        <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+        <div class="p-3 mb-2 bg-info-subtle text-info-emphasis">.bg-info-subtle</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-light-subtle text-light-emphasis">.bg-light-subtle</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">.bg-dark-subtle</div>
+        <div class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</div>
+        <div class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</div>
+        <div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+        <div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
+      </div>
+      <!-- tables -->
+       <div class="container">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+       <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+       </div>
+       <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <!-- flex -->
+      <div class="container">
+        <div class="d-flex flex-row mb-3">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+          </div>
+          <div class="d-flex flex-row-reverse">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+          </div>
+      </div>
+      <!-- flex justify -->
+      <div class="container">
+        <div class="d-flex justify-content-start">
+            <div class="p-2">justify</div>
+            <div class="p-2">content</div>
+            <div class="p-2">start</div>
+        </div>
+<div class="d-flex justify-content-end">
+    <div class="p-2">justify</div>
+    <div class="p-2">content</div>
+    <div class="p-2">end</div>
+</div>
+<div class="d-flex justify-content-center">
+    <div class="p-2">justify</div>
+    <div class="p-2">content</div>
+    <div class="p-2">center</div>
+</div>
+<div class="d-flex justify-content-between">
+    <div class="p-2">justify</div>
+    <div class="p-2">content</div>
+    <div class="p-2">between</div>
+</div>
+<div class="d-flex justify-content-around">...</div>
+<div class="d-flex justify-content-evenly">...</div>
+      </div>
+<!-- card -->
+      <div class="container">
+        <div class="row">
+            <div class="col"><div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqycgI9lJOFiKZwx3c13BDUtV9OlaO-NxOw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="col"><div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqycgI9lJOFiKZwx3c13BDUtV9OlaO-NxOw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="col"><div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqycgI9lJOFiKZwx3c13BDUtV9OlaO-NxOw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+        </div>
+        <!-- carausel -->
+         <div class="container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1718078722811-f0112de8b646?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1718137654436-b9d3661a90d4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src=".https://images.unsplash.com/photo-1718102696639-451bd772dca4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+         </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
